@@ -1,0 +1,191 @@
+Excel reader Metanode (Node 53):
+
+	Node 1: Excel Reader: table info_pro.xlsx
+
+	Node 2: Excel Reader: table remuneration.xlsx
+
+	Node 3: Excel Reader: table Salari,s.xlsx
+
+
+Big Picture Metanode (Node 52):
+
+	Node 4: Extract Table Spec: sur table remuneration.xlsx
+
+	Node 5: Extract Table Spec: sur info_pro.xlsx
+
+	Node 6: Extract Table Spec: sur Salari,s.xlsx
+
+
+Joiner Metanode (Node 54):
+
+	Node 8: Joiner: de Nodes 1 et 2
+
+	Node 9: Joiner: de Nodes 8 et 3
+
+
+Change columns Metanode(Node 55):
+
+	Node 6: Date&Time Difference: nouvelle colonne avec l'âge en ans
+
+	Node 12: String Replacer: F pour Femme
+
+	Node 13: String Replacer: H pour Homme
+
+	Node 49: Math Formula: nouvelle colonne avec le salaire variable en euros
+
+
+Node 50: Math Formula: nouvelle colonne avec la somme de salaire base et variable
+
+
+Big Picture avec joiners Metanode (Node 59):
+
+	Node 12: Box Plot: de variables salaire base, variable et total
+
+	Node 39: Image Writer (Port): comme image box_plot_salaire.svg
+
+	Node 57: Box Plot: de variables Durée hebdo
+
+	Node 58: Image Writer (Port): comme image box_plot_dure_hebdo.svg
+
+	Node 11: Box Plot: de variables Ancienneté, distance, satisfaction, âge
+
+	Node 37: Image Writer (Port): comme image box_plot.svg
+
+	Node 13: Box Plot: de variables Enfants, Augmentation, Promotion
+
+	Node 38: Image Writer (Port): comme image box_plot_enfants_augmentation_promotion.svg
+
+
+IND 1: EMBAUCHE-Taux Type contrat F/H Metanode (Node 60):
+
+	Node 10: GroupBy: Par sexe, contrat, colonnes: aggregation taux et count
+
+	Node 22: Table Manipulator: Change de noms des colonnes (Sexe, Contrat, count, Percent)
+
+	Node 20: CSV Writer: comme table IND1.csv
+
+	Node 35: Sunburst Chart: de les taux pour chaque type de contrat
+
+	Node 36: Image Writer (Port): comme image IND1.svg
+
+
+Node 25: Table Manipulator: Nom colonne Sex par Genre 
+
+
+IND 2: REPARTITION DES ACCIDENTS DU TRAVAIL Metanode (Node 89):
+
+	Node 80: Number To String: Pour pouvoir changer le type de variable à calitative de work_accident
+
+	Node 81: String Replacer: 1 pour Oui, en colonne work_accident (quantitative a calitative)
+
+	Node 82: String Replacer:0 pour Non, en colonne work_accident (quantitative a calitative)
+
+	Node 78: Row Splitter: Oui pour Node 76(Bar chart)
+
+	Node 76: Bar Chart: de work_accidents des hommes et des femmes
+
+	Node 87: Image Writer (Port): comme image ind2.svg
+
+	Node 77: GroupBy: des salariés où Oui en colonne work_accident: par genre, work_accident et aggregation count
+
+	Node 84: CSV Writer: ind2oui.csv
+
+	Node 83: GroupBy: des salariés où Non en colonne work_accident: par genre, work_accident et aggregation count
+
+	Node 85: CSV Writer: comme table ind2no.csv
+
+
+IND 3: Remuneration effective Metanode (Node 92):
+
+	Node 43: GroupBy: par genre et aggregation de moyenne de salaire base, variable et total
+
+	Node 90: Histogram: de salaire total
+
+	Node 61: Bar Chart: de salaire base, variable et total divisé homme-femme
+
+	Node 65: CSV Writer: comme table IND3.CSV
+
+	Node 70: Row Splitter: par genre, Femme à Node 63, 76 et 82(metanode 91), et homme à 71, 75 et 81(metanode 91)
+
+	Node 75: Histogram: des hommes par rapport à salaire total
+
+	Node 77: Image Writer (Port): comme image ind3hh.svg
+
+	Node 63: Box Plot: salaire base, variable et total (juste femmes)
+
+	Node 73: Image Writer (Port): comme image ind3f.svg
+
+	Node 71: Box Plot: salaire base, variable et total (juste hommes)
+
+	Node 72: Image Writer (Port): comme image ind3h.svg
+
+	Node 76: Histogram: des femmes par rapport à salaire total
+
+	Node 78: Image Writer (Port): comme image ind3hf.svg
+
+
+Big picture-age-histogram Metanode (Node 91):
+
+	Node 82: Histogram: des âges des femmes
+
+	Node 80: Image Writer (Port): comme image hist-age-femmes.svg
+
+	Node 81: Histogram: des âges des hommes
+
+	Node 79: Image Writer (Port): comme image hist-age-hommes.svg
+
+
+IND 4: QUALIFICATION-REPARTITION DES EFFECTIFS PAR SERVICE Metanode (Node 64):
+
+	Node 44: GroupBy: Par Genre, service, aggregation de moyenne salaire base, variable et total
+
+	Node 45: Table Manipulator: Change de noms des colonnes( Moyenne salaire total, variable, et nombre effectifs)
+
+	Node 64: Row Splitter: Par Genre, Homme Node 66 et Femme Node 65
+
+	Node 66: Bar Chart: Nombre effectifs Hommes par service
+
+	Node 68: Image Writer (Port): comme image ind4h.svg
+
+	Node 65: Bar Chart: Nombre effectifs Femmes par service
+
+	Node 67: Image Writer (Port): comme image ind4f.svg
+
+	Node 46: CSV Writer: comme table IND4.csv
+
+	Node 63: Bar Chart: Nombre effectifs total (hommes + femmes) par service
+
+	Node 69: Image Writer: comme table ind4.svg
+
+
+IND 5: PROMOTION-REPARTITION DES PROMOTIONS INTERNES Metanode (Node 88):
+
+	Node 80: Number To String: Pour pouvoir changer le type de variable à calitative de Promotion
+
+	Node 81: String Replacer: 1 à Oui en colonne Promotion
+
+	Node 82: String Replacer: 0 à Non en colonne Promotion
+
+	Node 78: Row Splitter: Oui Nodes 77 et 76, Non Node 83
+
+	Node 77: GroupBy: Par Genre et Promotion, aggregation Count (Hommes)
+
+	Node 84: CSV Writer: comme table ind5oui.csv
+
+	Node 76: Bar Chart: de Genre (count de promotions)
+
+	Node 87: Image Writer (Port): comme image ind5.svg
+
+	Node 83: GroupBy: Par Genre et Promotion, aggregation Count (Femmes)
+
+	Node 85: CSV Writer: comme image ind5no.csv
+
+
+Node 93: Table Manipulator: Enlever toutes les colonnes qui ont des infos personnelles (Juste Genre, Service, Contrat et Salaire Total)
+
+
+Node 7: CSV Writer: comme table ACEBAL_RICO_JUAN_LUIS_2_fichier_csv_122022.csv
+
+
+
+

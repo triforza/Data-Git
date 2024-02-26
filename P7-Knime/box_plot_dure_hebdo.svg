@@ -1,0 +1,556 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="800"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     style="display: block; width: 800px; height: 600px;"
+     contentStyleType="text/css" height="600"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.0">
+    <style type="text/css" xml:space="preserve">.knime-title { color: black; fill: black; font-size: 24px; }
+.knime-subtitle { color: black; fill: black; font-size: 12px; }
+.knime-label, .knime-axis-label, .knime-tick-label, .knime-label text, text.knime-axis-label, text.knime-tick-label { color: black; fill: black; font-size: 12px; }</style><style type="text/css"
+           xml:space="preserve">.axis path, line { fill: none; stroke: rgb(0, 0, 0); shape-rendering: crispedges; }</style><rect fill="#FFFFFF"
+          width="800" id="bgr" height="600"/>
+    <g id="plotG" transform="translate(28.359375,46)">
+        <rect fill="#FFFFFF" width="761.640625" id="da" height="519"/>
+        <g class="x axis knime-x knime-axis" transform="translate(0,519)">
+            <g class="tick major knime-tick" style="opacity: 1;"
+               transform="translate(380.8203125,0)">
+                <line y2="6" fill="none" shape-rendering="crispEdges" x2="0"
+                      class="knime-tick-line" stroke="black"/>
+                <text x="0" dy=".71em" y="9" style="text-anchor: middle;"
+                      class="knime-tick-label">
+                    Durée hebdo
+                </text>
+            </g>
+            <path fill="none" d="M0,6V0H761.640625V6"
+                  shape-rendering="crispEdges" class="domain knime-axis-line"
+                  stroke="black"/>
+        </g>
+        <g class="y axis knime-y knime-axis">
+            <g class="tick major knime-tick" style="opacity: 1;"
+               transform="translate(0,514)">
+                <line y2="0" fill="none" shape-rendering="crispEdges" x2="-6"
+                      class="knime-tick-line" stroke="black"/>
+                <text x="-9" dy=".32em" y="0" style="text-anchor: end;"
+                      class="knime-tick-label">
+                    24
+                </text>
+            </g>
+            <g class="tick major knime-tick" style="opacity: 1;"
+               transform="translate(0,420.54545454545456)">
+                <line y2="0" fill="none" shape-rendering="crispEdges" x2="-6"
+                      class="knime-tick-line" stroke="black"/>
+                <text x="-9" dy=".32em" y="0" style="text-anchor: end;"
+                      class="knime-tick-label">
+                    26
+                </text>
+            </g>
+            <g class="tick major knime-tick" style="opacity: 1;"
+               transform="translate(0,327.0909090909091)">
+                <line y2="0" fill="none" shape-rendering="crispEdges" x2="-6"
+                      class="knime-tick-line" stroke="black"/>
+                <text x="-9" dy=".32em" y="0" style="text-anchor: end;"
+                      class="knime-tick-label">
+                    28
+                </text>
+            </g>
+            <g class="tick major knime-tick" style="opacity: 1;"
+               transform="translate(0,233.63636363636368)">
+                <line y2="0" fill="none" shape-rendering="crispEdges" x2="-6"
+                      class="knime-tick-line" stroke="black"/>
+                <text x="-9" dy=".32em" y="0" style="text-anchor: end;"
+                      class="knime-tick-label">
+                    30
+                </text>
+            </g>
+            <g class="tick major knime-tick" style="opacity: 1;"
+               transform="translate(0,140.1818181818182)">
+                <line y2="0" fill="none" shape-rendering="crispEdges" x2="-6"
+                      class="knime-tick-line" stroke="black"/>
+                <text x="-9" dy=".32em" y="0" style="text-anchor: end;"
+                      class="knime-tick-label">
+                    32
+                </text>
+            </g>
+            <g class="tick major knime-tick" style="opacity: 1;"
+               transform="translate(0,46.72727272727269)">
+                <line y2="0" fill="none" shape-rendering="crispEdges" x2="-6"
+                      class="knime-tick-line" stroke="black"/>
+                <text x="-9" dy=".32em" y="0" style="text-anchor: end;"
+                      class="knime-tick-label">
+                    34
+                </text>
+            </g>
+            <path fill="none" d="M-6,0H0V514H-6" shape-rendering="crispEdges"
+                  class="domain knime-axis-line" stroke="black"/>
+        </g>
+        <g class="box" transform="translate(304.65625,0)">
+            <rect fill="#003399" width="152.328125" height="0" y="0"
+                  class="boxrect" stroke="black"/>
+            <text x="-5" y="3" class="uqText knime-label" text-anchor="end">
+                35
+            </text>
+            <text x="-5" y="3" class="lqText knime-label" text-anchor="end">
+                35
+            </text>
+            <line x1="0" x2="152.328125" y1="0" y2="0" class="median"
+                  stroke="black" stroke-width="3"/>
+            <text class="medianText knime-label" x="157.328125" y="3">
+                35
+            </text>
+            <line x1="76.1640625" x2="76.1640625" y1="0" y2="0"
+                  stroke-dasharray="5,5" class="uwL1" opacity="1" stroke="black"/>
+            <line x1="0" x2="152.328125" y1="0" y2="0" class="uwL2" opacity="1"
+                  stroke="black"/>
+            <text x="157.328125" y="10" class="uwText knime-label" opacity="1">
+                35
+            </text>
+            <line x1="76.1640625" x2="76.1640625" y1="0" y2="0"
+                  stroke-dasharray="5,5" class="ulL1" opacity="1" stroke="black"/>
+            <line x1="0" x2="152.328125" y1="0" y2="0" class="ulL2" opacity="1"
+                  stroke="black"/>
+            <text x="157.328125" y="-3" class="ulText knime-label" opacity="1">
+                35
+            </text>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16090608-0239
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16090608-0239
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16610809-8713
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16610809-8713
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,140.1818181818182)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16441109-5385
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16441109-5385
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16050407-7405
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16050407-7405
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16011205-0331
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16011205-0331
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16890714-6248
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16890714-6248
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16950828-2259
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16950828-2259
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16931211-0175
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16931211-0175
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16320710-7636
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16320710-7636
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16341230-0471
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16341230-0471
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,327.0909090909091)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16080411-7877
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16080411-7877
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16800116-6613
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16800116-6613
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,140.1818181818182)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16020327-1465
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16020327-1465
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16520121-8566
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16520121-8566
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,140.1818181818182)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16891203-4397
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16891203-4397
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16381004-1917
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16381004-1917
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16181217-7101
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16181217-7101
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16761104-5282
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16761104-5282
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16951117-9468
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16951117-9468
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16761028-0344
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16761028-0344
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16230718-4297
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16230718-4297
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,327.0909090909091)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16581203-8213
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16581203-8213
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,327.0909090909091)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16420625-3827
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16420625-3827
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,327.0909090909091)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16851208-5567
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16851208-5567
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16340806-9395
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16340806-9395
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16620809-2681
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16620809-2681
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,140.1818181818182)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16341225-2086
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16341225-2086
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16671208-2624
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16671208-2624
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,327.0909090909091)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16090824-7661
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16090824-7661
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16460901-5575
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16460901-5575
+                    </title>
+                </line>
+            </g>
+            <g class="eo" transform="translate(76.1640625,514)">
+                <line y2="4" stroke-width="1.5" x1="-4" x2="4" y1="-4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16100424-1459
+                    </title>
+                </line>
+                <line y2="-4" stroke-width="1.5" x1="-4" x2="4" y1="4"
+                      stroke-linecap="round">
+                    <title class="knime-label">
+                        16100424-1459
+                    </title>
+                </line>
+            </g>
+        </g>
+    </g>
+    <text x="20" y="30" id="title" class="knime-title">
+        Box Plot duré hebdo
+    </text>
+    <text x="20" y="32" id="subtitle" class="knime-subtitle"/>
+</svg>

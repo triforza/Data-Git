@@ -1,0 +1,95 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="800"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     style="width: 800px; height: 600px;" contentStyleType="text/css" id="svg"
+     height="600" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.0">
+    <style type="text/css" xml:space="preserve">.knime-title { color: black; fill: black; font-size: 24px; }
+.knime-subtitle { color: black; fill: black; font-size: 12px; }
+.knime-label, .knime-axis-label, .knime-tick-label, .knime-label text, text.knime-axis-label, text.knime-tick-label { color: black; fill: black; font-size: 12px; }
+.knime-legend-label, text.knime-legend-label { color: black; fill: black; font-size: 12px; font-weight: normal; }
+.knime-tooltip-caption, .knime-tooltip-key, .knime-tooltip-value { color: black; fill: black; font-size: 12px; }
+.knime-tooltip-caption, .knime-tooltip-value { font-weight: bold; }</style><text x="20"
+          y="30" id="title" class="knime-title">
+        Sunburst Chart
+    </text>
+    <text x="20" y="46" id="subtitle" class="knime-subtitle"/>
+    <g id="plottingSurface" transform="translate(10,60)">
+        <g id="sunburstGroup" transform="translate(347.5,285)">
+            <circle r="245" opacity="0"/>
+            <path fill="#FFFFFF" stroke-width="1"
+                  d="M0,141.4508159514583A141.4508159514583,141.4508159514583 0 1,1 0,-141.4508159514583A141.4508159514583,141.4508159514583 0 1,1 0,141.4508159514583Z"
+                  fill-rule="evenodd" stroke="white"/>
+            <path fill="#1f77b4" stroke-width="1"
+                  d="M-14.715977590859357,199.49964077715023A200.04166232729287,200.04166232729287 0 0,1 -3.674705721978523e-14,-200.04166232729287L-2.5984093348760217e-14,-141.4508159514583A141.4508159514583,141.4508159514583 0 0,0 -10.405767546285924,141.0675488378032Z"
+                  fill-rule="evenodd" stroke="white"/>
+            <path fill="#2ca02c" stroke-width="1"
+                  d="M-65.34462558135014,-236.12513611988277A245,245 0 0,1 -4.500576986866523e-14,-245L-3.674705721978523e-14,-200.04166232729287A200.04166232729287,200.04166232729287 0 0,0 -53.35366336917481,-192.79536631297816Z"
+                  fill-rule="evenodd" stroke="white"/>
+            <path fill="#d62728" stroke-width="1"
+                  d="M-18.02331808191855,244.33616188627911A245,245 0 0,1 -65.34462558135014,-236.12513611988277L-53.35366336917481,-192.79536631297816A200.04166232729287,200.04166232729287 0 0,0 -14.715977590859357,199.49964077715023Z"
+                  fill-rule="evenodd" stroke="white"/>
+            <path fill="#ff7f0e" stroke-width="1"
+                  d="M1.2249019073261744e-14,-200.04166232729287A200.04166232729287,200.04166232729287 0 1,1 -14.715977590859357,199.49964077715023L-10.405767546285924,141.0675488378032A141.4508159514583,141.4508159514583 0 1,0 8.66136444958674e-15,-141.4508159514583Z"
+                  fill-rule="evenodd" stroke="white"/>
+            <path fill="#2ca02c" stroke-width="1"
+                  d="M12.021580210217387,244.70488677026725A245,245 0 0,1 -18.02331808191855,244.33616188627911L-14.715977590859357,199.49964077715023A200.04166232729287,200.04166232729287 0 0,0 9.815579138990909,199.80070338422954Z"
+                  fill-rule="evenodd" stroke="white"/>
+            <path fill="#d62728" stroke-width="1"
+                  d="M1.5001923289555078e-14,-245A245,245 0 0,1 12.021580210217387,244.70488677026725L9.815579138990909,199.80070338422954A200.04166232729287,200.04166232729287 0 0,0 1.2249019073261744e-14,-200.04166232729287Z"
+                  fill-rule="evenodd" stroke="white"/>
+            <g width="282.9016319029166" id="explanation"
+               style="position: absolute; top: 260px; left: 0px; text-align: center; color: rgb(102, 102, 102); z-index: -1;"
+               display="inline">
+                <text width="282.9016319029166" font-size="2.5em"
+                      id="percentage" class="knime-label"
+                      alignment-baseline="middle" text-anchor="middle"/>
+                <text font-size="1.8em" y="30" alignment-baseline="middle"
+                      text-anchor="middle" width="282.9016319029166"
+                      class="knime-label" id="explanationText"
+                      font-weight="lighter"/>
+            </g>
+            <circle fill="none" r="141.4508159514583" id="donut_hole_button"
+                    pointer-events="all"/>
+        </g>
+        <g class="knime-tooltip" id="trail">
+            <text class="knime-tooltip-value" fill="#000" id="endlabel"/>
+        </g>
+        <g width="100" height="84" class="knime-legend"
+           transform="translate(680, 40)">
+            <g transform="translate(0,0)">
+                <circle fill="#1f77b4" r="6" cx="0" class="knime-legend-symbol"
+                        cy="4.5"/>
+                <text x="11" width="100" dy="0.35em" y="6" font-size="12"
+                      class="knime-legend-label">
+                    Femme
+                </text>
+            </g>
+            <g transform="translate(0,21)">
+                <circle fill="#ff7f0e" r="6" cx="0" class="knime-legend-symbol"
+                        cy="4.5"/>
+                <text x="11" width="100" dy="0.35em" y="6" font-size="12"
+                      class="knime-legend-label">
+                    Homme
+                </text>
+            </g>
+            <g transform="translate(0,42)">
+                <circle fill="#2ca02c" r="6" cx="0" class="knime-legend-symbol"
+                        cy="4.5"/>
+                <text x="11" width="100" dy="0.35em" y="6" font-size="12"
+                      class="knime-legend-label">
+                    CDD
+                </text>
+            </g>
+            <g transform="translate(0,63)">
+                <circle fill="#d62728" r="6" cx="0" class="knime-legend-symbol"
+                        cy="4.5"/>
+                <text x="11" width="100" dy="0.35em" y="6" font-size="12"
+                      class="knime-legend-label">
+                    CDI
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
